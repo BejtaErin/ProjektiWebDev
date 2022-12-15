@@ -33,6 +33,80 @@
     font-family: Arial;
     margin-top: 25px;
 }
+
+#image{
+    width: 250px;
+    margin-top: none;
+    border: 2px solid #0e0216;
+}
+
+.tim{
+    margin-right: 10px;
+    border: 3px solid #0e0216;
+    margin-top: 120px;
+}
+
+
+#info{
+    color: black;
+    width: 200px;
+}
+
+#born{
+    color: black;
+    width: 140px;
+}
+
+#education{
+    color: black;
+    width: 140px;
+}
+
+#spouse{
+    color: black;
+    width: 140px;
+}
+
+#awards{
+    color: black;
+    width: 140px;
+}
+
+a{
+    color: black;
+}
+
+.paragraph1{
+    color: black;
+    width: 900x;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.title{
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.title:hover{
+    color: #f8dc08;
+    cursor: pointer;
+}
+
+.title2{
+    color: black;
+    margin-top: 50px;
+    transition: all 0.5s ease;
+}
+
+.title2:hover{
+    color: #f8dc08;
+    cursor: pointer;
+}
+
+.paragraph2{
+    color:black;
+    font-size: 18px;
+}
 #about:hover{
     text-decoration: underline;
 }
