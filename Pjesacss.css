@@ -1,23 +1,25 @@
 .body{
-    background-color: #04407C;
-    font-family:'Times New Roman', Times, serif;
+    background-color: #F0F0F0;
 }
 
 .main{
-    background-color: #0066CC;
+    background-color: #f8dc08;
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
     border-radius: 30px;
-
+    height: 70px;
 }
 
 #home{
+    margin-top: 25px;
     margin-right: 25px;
     cursor: pointer;
-    color: white;
-    margin-left: 10px;
+    color: black;
+    margin-left: 20px;
+    font-family: Arial;
 }
+
 #home:hover{
     text-decoration: underline;
 }
@@ -27,8 +29,9 @@
 #about{
     margin-right: 25px;
     cursor: pointer;
-    color: white;
-    
+    color: black;
+    font-family: Arial;
+    margin-top: 25px;
 }
 #about:hover{
     text-decoration: underline;
@@ -39,7 +42,9 @@
 #cu{
     margin-right: 25px;
     cursor: pointer;
-    color: white;
+    color: black;
+    font-family: Arial;
+    margin-top: 25px;
 }
 #cu:hover{
     text-decoration: underline;
@@ -49,8 +54,21 @@
 #log-in{
     margin-left: 1200px;
     color: white;
-    background-color: #04407C;
-    width: 70px;
-    border-radius: 20px;
-
+    background-color:black;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    font-family: Arial;
+    transition: all 0.5s ease;
+    border-radius: 30px;
 }
+
+#log-in:hover{
+  color:#f8dc08;
+  background-color: white;
+ }
+
+ #log-in:active{
+    color: black;
+    background-color: #f8dc08;
+ }
