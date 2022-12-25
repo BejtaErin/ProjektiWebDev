@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+  width: 23%;
+  display: inline-block;
+  margin-left: 280px;
+  margin-top: 25px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 200px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.h2{
+  color:white;
+  border-color:none;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  font-family:'Rubik Mono One', sans-serif;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.h2:hover{
+  color:skyblue;
+  opacity: 0.5;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+.h{
+  background-color: none;
+  padding-top: 3px;
+}
+
+#Ditar{
+  margin-right: 100px;
+}
+
+#Erin{
+  margin-left: 40px;
+}
+
+.body{
+  background-image: url("245.jpg");
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+html{
+  height: 100%;
+}
+</style>
+</head>
+<body class="body">
+
+<div class="h">
+  <h2 class="h2">Contacts</h2> 
+  
+</div>
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%" id="Ditar">
+  <div class="middle">
+    <div class="text">Ditar Qamili</div>
+    <div class="text">dq58442@ubt-uni.net</div>
+    <div class="text">049-242-870</div>
+  </div>
+</div>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%" id="Erin">
+  <div class="middle">
+    <div class="text">Erin Bejta</div>
+    <div class="text">eb58443@ubt-uni.net</div>
+    <div class="text">043-599-826</div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
+
