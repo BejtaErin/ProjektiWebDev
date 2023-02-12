@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
-    border-radius: 30px;
+    border-radius: 60px;
     height: 70px;
 }
 
@@ -33,6 +33,70 @@
     font-family: Arial;
     margin-top: 25px;
 }
+#about:hover{
+    text-decoration: underline;
+}
+
+
+
+#cu{
+    margin-right: 25px;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    margin-top: 25px;
+}
+#cu:hover{
+    text-decoration: underline;
+}
+
+
+#log-in{
+    color: white;
+    background-color:black;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    font-family: Arial;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+}
+
+#log-in:hover{
+  color:#f8dc08;
+  background-color: white;
+ }
+
+ #log-in:active{
+    color: black;
+    background-color: #f8dc08;
+ }
+
+
+ #sign-up{
+    margin-left: 1100px;
+    margin-right: 10px;
+    color: white;
+    background-color:black;
+    width: 80px;
+    height: 30px;
+    margin-top: 20px;
+    font-family: Arial;
+    transition: all 0.5s ease;
+    border-radius: 30px;
+ }
+ #sign-up:hover{
+    color:#f8dc08;
+    background-color: white;
+   }
+  
+   #sign-up:active{
+      color: black;
+      background-color: #f8dc08;
+   }
+
+
+
 
 #image{
     width: 250px;
@@ -107,66 +171,6 @@ a{
     color:black;
     font-size: 18px;
 }
-#about:hover{
-    text-decoration: underline;
-}
-
-
-
-#cu{
-    margin-right: 25px;
-    cursor: pointer;
-    color: black;
-    font-family: Arial;
-    margin-top: 25px;
-}
-#cu:hover{
-    text-decoration: underline;
-}
-
-
-#log-in{
-    margin-left: 1200px;
-    color: white;
-    background-color:black;
-    width: 80px;
-    height: 30px;
-    margin-top: 20px;
-    font-family: Arial;
-    transition: all 0.5s ease;
-    border-radius: 30px;
-}
-
-#log-in:hover{
-  color:#f8dc08;
-  background-color: white;
- }
-
- #log-in:active{
-    color: black;
-    background-color: #f8dc08;
- }
-#sign-up{
-    margin-left: 1100px;
-    margin-right: 10px;
-    color: white;
-    background-color:black;
-    width: 80px;
-    height: 30px;
-    margin-top: 20px;
-    font-family: Arial;
-    transition: all 0.5s ease;
-    border-radius: 30px;
- }
- #sign-up:hover{
-    color:#f8dc08;
-    background-color: white;
-   }
-  
-   #sign-up:active{
-      color: black;
-      background-color: #f8dc08;
-   }
 
 .title3{
     color: black;
